@@ -76,7 +76,7 @@ class ApplicationController < ActionController::Base
   def test_http_basic_auth
     render :text => "HTTP Basic Auth"
   end
-
+  
   def login_at_test
     login_at(:twitter)
   end

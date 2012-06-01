@@ -23,6 +23,7 @@ module Sorcery
       autoload :SessionTimeout, 'sorcery/controller/submodules/session_timeout'
       autoload :BruteForceProtection, 'sorcery/controller/submodules/brute_force_protection'
       autoload :HttpBasicAuth, 'sorcery/controller/submodules/http_basic_auth'
+      autoload :AuthToken, 'sorcery/controller/submodules/auth_token'
       autoload :ActivityLogging, 'sorcery/controller/submodules/activity_logging'
       autoload :External, 'sorcery/controller/submodules/external'
       module External
