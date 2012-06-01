@@ -181,6 +181,9 @@ Basic HTTP Authentication (see lib/sorcery/controller/submodules/http_basic_auth
 * automatic login from HTTP Basic.
 * automatic login is disabled if session key changed.
 
+Authentication by Token (see lib/sorcery/controller/submodules/auth_token.rb)
+* automatic login using User#auth_token from params[:token] or headers['TOKEN']
+
 Activity Logging (see lib/sorcery/model/submodules/activity_logging.rb):
 * automatic logging of last login, last logout and last activity time.
 * an easy method of collecting the list of currently logged in users.
